@@ -1,3 +1,4 @@
+- name: SetUp Frontend
   host: all
   become: yes
   tasks:
