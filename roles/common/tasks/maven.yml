@@ -1,6 +1,6 @@
 - name: Install Maven
   ansible.builtin.yum:
-    navme: maven
+    name: maven
     state: installed
 
 - name: Include task list in play
