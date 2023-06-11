@@ -1,6 +1,6 @@
 - name: Install Redis repos
   ansible.builtin.yum:
-    name: yum install https://rpms.remirepo.net/enterprise/remi-release-8.rpm -y
+    name: https://rpms.remirepo.net/enterprise/remi-release-8.rpm -y
     state: installed
     disable_gpg_check: true
 
